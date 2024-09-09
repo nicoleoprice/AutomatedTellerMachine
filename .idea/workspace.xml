@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41971b82-f25d-4c43-8560-f29ec24e0445" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/AtmCntrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AtmCntrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/com/atm/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/com/atm/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/resources/AccountDatabase.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/resources/AccountDatabase.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/AccountUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AccountUI.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/AccountUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AccountUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/CreateUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/CreateUI.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/CreateUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/CreateUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/LoginUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/LoginUI.java" afterDir="false" />
+    <list default="true" id="41971b82-f25d-4c43-8560-f29ec24e0445" name="Changes" comment="The user can now traverse between the three main UIs through the buttons. I have started working on incorporating the JDBC with the account information.">
+      <change beforePath="$PROJECT_DIR$/src/model/com/atm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/com/atm/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +107,19 @@
       <option name="presentableId" value="Default" />
       <updated>1720815673609</updated>
     </task>
+    <task id="LOCAL-00001" summary="The user can now traverse between the three main UIs through the buttons. I have started working on incorporating the JDBC with the account information.">
+      <option name="closed" value="true" />
+      <created>1725864244877</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725864244877</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="The user can now traverse between the three main UIs through the buttons. I have started working on incorporating the JDBC with the account information." />
+    <option name="LAST_COMMIT_MESSAGE" value="The user can now traverse between the three main UIs through the buttons. I have started working on incorporating the JDBC with the account information." />
   </component>
 </project>

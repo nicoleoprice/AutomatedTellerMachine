@@ -26,32 +26,32 @@ public class Main {
             //CRUD
 
             //select
-            PreparedStatement preparedStatement = dbConnection.prepareStatement("select * from USERS where name = ?");
+            PreparedStatement preparedStatement = dbConnection.prepareStatement("select * from USERS where firstName = ?");
             //set string has to include what's already in the database
-            preparedStatement.setString(1, "Nicole");
+            preparedStatement.setString(1, "Sarah");
 
             ResultSet resultSet = preparedStatement.executeQuery();
 
             while(resultSet.next()) {
-                System.out.println(resultSet.getInt("id") + " - " + resultSet.getString("name"));
+                System.out.println(resultSet.getInt("id") + " - " + resultSet.getString("firstName"));
             }
 
             //inserts
-            PreparedStatement insertPrepareStatement = dbConnection.prepareStatement("insert into USERS (name) values (?)");
+            PreparedStatement insertPrepareStatement = dbConnection.prepareStatement("insert into USERS (firstName) values (?)");
             insertPrepareStatement.setString(1, "Johnny");
             int insertCount = insertPrepareStatement.executeUpdate();
 
             System.out.println("insertCount: " + insertCount);
 
             //updates
-            PreparedStatement updatePrepareStatement = dbConnection.prepareStatement("update USERS set name = ? where name = ?");
+            PreparedStatement updatePrepareStatement = dbConnection.prepareStatement("update USERS set name = ? where firstName = ?");
             updatePrepareStatement.setString(1, "John");
             updatePrepareStatement.setString(2, "Johnny");
             int updateCount = updatePrepareStatement.executeUpdate();
             System.out.println("updateCount: " + updateCount);
 
             //deletes
-            PreparedStatement deletePrepareStatement = dbConnection.prepareStatement("delete from USERS where name = ?");
+            PreparedStatement deletePrepareStatement = dbConnection.prepareStatement("delete from USERS where firstName = ?");
             deletePrepareStatement.setString(1, "John");
             int deleteCount = deletePrepareStatement.executeUpdate();
             System.out.println("deleteCount: " + deleteCount);
