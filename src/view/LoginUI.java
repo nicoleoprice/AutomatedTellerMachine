@@ -8,8 +8,8 @@ public class LoginUI extends JFrame {
     private JLabel titleLabel;
     private JPanel loginPanel;
     private JPanel buttonPanel;
-    private JButton loginButton;
-    private JButton createButton;
+    public JButton loginButton;
+    public JButton createButton;
     private JTextField usernameField;
     private JLabel usernameLabel;
     private JLabel passwordLabel;
@@ -28,4 +28,20 @@ public class LoginUI extends JFrame {
     //close application when window is closed
     setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 }
+
+    public JTextField getUsernameField() {
+        return usernameField;
+    }
+
+    public void setUsernameField(JTextField usernameField) {
+        this.usernameField = usernameField;
+    }
+
+    public JPasswordField getPasswordField() {
+        return passwordField;
+    }
+
+    public void setPasswordField(JPasswordField passwordField) {
+        this.passwordField = passwordField;
+    }
 }

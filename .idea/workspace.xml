@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41971b82-f25d-4c43-8560-f29ec24e0445" name="Changes" comment="" />
+    <list default="true" id="41971b82-f25d-4c43-8560-f29ec24e0445" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/AtmCntrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AtmCntrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/com/atm/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/com/atm/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/resources/AccountDatabase.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/resources/AccountDatabase.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/AccountUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AccountUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/AccountUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AccountUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/CreateUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/CreateUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/CreateUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/CreateUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/LoginUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/LoginUI.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,11 +31,27 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "nicoleoprice"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/nicoleoprice/AutomatedTellerMachine.git",
+    "accountId": "3089d25d-cbf4-400a-992b-c8e8ed001bc5"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2jA2gJmXxK17Qdw5V1eAyHO7rGx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,6 +62,7 @@
     "Application.atm_mvc.model.com.atm.Main.executor": "Run",
     "Application.model.com.atm.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/nicol/IdeaProjects/AutomatedTellerMachine/src/controller",
     "last_opened_file_path": "C:/Users/nicol/Downloads",

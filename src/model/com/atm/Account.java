@@ -9,7 +9,7 @@ public class Account {
     private int cardNumber;
     protected double balance;
 
-    Account(String username, String password, String firstName, String lastName, int cardNumber, int balance) {
+    public Account(String username, String password, String firstName, String lastName, int cardNumber, int balance) {
         this.username = username;
         this.password = password;
         this.firstName = firstName;
